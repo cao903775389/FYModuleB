@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2874964624584FBD008D97A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2874964524584FBD008D97A4 /* AppDelegate.m */; };
+		2874964924584FBD008D97A4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2874964824584FBD008D97A4 /* SceneDelegate.m */; };
+		2874964C24584FBD008D97A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2874964B24584FBD008D97A4 /* ViewController.m */; };
+		2874964F24584FBD008D97A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2874964D24584FBD008D97A4 /* Main.storyboard */; };
+		2874965124584FBF008D97A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2874965024584FBF008D97A4 /* Assets.xcassets */; };
+		2874965424584FBF008D97A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2874965224584FBF008D97A4 /* LaunchScreen.storyboard */; };
+		2874965724584FBF008D97A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2874965624584FBF008D97A4 /* main.m */; };
+		2874966124584FC0008D97A4 /* FYModuleBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2874966024584FC0008D97A4 /* FYModuleBTests.m */; };
+		2874966C24584FC0008D97A4 /* FYModuleBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2874966B24584FC0008D97A4 /* FYModuleBUITests.m */; };
+		8D8AEDA287938A0BE0D9C6D5 /* Pods_FYModuleB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6361B7D84C0B6F631AC3E82A /* Pods_FYModuleB.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2874965D24584FC0008D97A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2874963924584FBD008D97A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2874964024584FBD008D97A4;
+			remoteInfo = FYModuleB;
+		};
+		2874966824584FC0008D97A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2874963924584FBD008D97A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2874964024584FBD008D97A4;
+			remoteInfo = FYModuleB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2874964124584FBD008D97A4 /* FYModuleB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYModuleB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2874964424584FBD008D97A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2874964524584FBD008D97A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2874964724584FBD008D97A4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2874964824584FBD008D97A4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2874964A24584FBD008D97A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2874964B24584FBD008D97A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2874964E24584FBD008D97A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2874965024584FBF008D97A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2874965324584FBF008D97A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2874965524584FBF008D97A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2874965624584FBF008D97A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2874965C24584FC0008D97A4 /* FYModuleBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYModuleBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2874966024584FC0008D97A4 /* FYModuleBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYModuleBTests.m; sourceTree = "<group>"; };
+		2874966224584FC0008D97A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2874966724584FC0008D97A4 /* FYModuleBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYModuleBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2874966B24584FC0008D97A4 /* FYModuleBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYModuleBUITests.m; sourceTree = "<group>"; };
+		2874966D24584FC0008D97A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C7F2B5A5E3FB7900D180EEB /* Pods-FYModuleB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYModuleB.debug.xcconfig"; path = "Target Support Files/Pods-FYModuleB/Pods-FYModuleB.debug.xcconfig"; sourceTree = "<group>"; };
+		6361B7D84C0B6F631AC3E82A /* Pods_FYModuleB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYModuleB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		894567EE6DF1E6834F523F62 /* Pods-FYModuleB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYModuleB.release.xcconfig"; path = "Target Support Files/Pods-FYModuleB/Pods-FYModuleB.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2874963E24584FBD008D97A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8AEDA287938A0BE0D9C6D5 /* Pods_FYModuleB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2874965924584FC0008D97A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2874966424584FC0008D97A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2874963824584FBD008D97A4 = {
+			isa = PBXGroup;
+			children = (
+				2874964324584FBD008D97A4 /* FYModuleB */,
+				2874965F24584FC0008D97A4 /* FYModuleBTests */,
+				2874966A24584FC0008D97A4 /* FYModuleBUITests */,
+				2874964224584FBD008D97A4 /* Products */,
+				2C0ECC74B59DA19F1E71F5B9 /* Pods */,
+				BFD0749262F7AF40E11ADAF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2874964224584FBD008D97A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2874964124584FBD008D97A4 /* FYModuleB.app */,
+				2874965C24584FC0008D97A4 /* FYModuleBTests.xctest */,
+				2874966724584FC0008D97A4 /* FYModuleBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2874964324584FBD008D97A4 /* FYModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				2874964424584FBD008D97A4 /* AppDelegate.h */,
+				2874964524584FBD008D97A4 /* AppDelegate.m */,
+				2874964724584FBD008D97A4 /* SceneDelegate.h */,
+				2874964824584FBD008D97A4 /* SceneDelegate.m */,
+				2874964A24584FBD008D97A4 /* ViewController.h */,
+				2874964B24584FBD008D97A4 /* ViewController.m */,
+				2874964D24584FBD008D97A4 /* Main.storyboard */,
+				2874965024584FBF008D97A4 /* Assets.xcassets */,
+				2874965224584FBF008D97A4 /* LaunchScreen.storyboard */,
+				2874965524584FBF008D97A4 /* Info.plist */,
+				2874965624584FBF008D97A4 /* main.m */,
+			);
+			path = FYModuleB;
+			sourceTree = "<group>";
+		};
+		2874965F24584FC0008D97A4 /* FYModuleBTests */ = {
+			isa = PBXGroup;
+			children = (
+				2874966024584FC0008D97A4 /* FYModuleBTests.m */,
+				2874966224584FC0008D97A4 /* Info.plist */,
+			);
+			path = FYModuleBTests;
+			sourceTree = "<group>";
+		};
+		2874966A24584FC0008D97A4 /* FYModuleBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2874966B24584FC0008D97A4 /* FYModuleBUITests.m */,
+				2874966D24584FC0008D97A4 /* Info.plist */,
+			);
+			path = FYModuleBUITests;
+			sourceTree = "<group>";
+		};
+		2C0ECC74B59DA19F1E71F5B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C7F2B5A5E3FB7900D180EEB /* Pods-FYModuleB.debug.xcconfig */,
+				894567EE6DF1E6834F523F62 /* Pods-FYModuleB.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFD0749262F7AF40E11ADAF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6361B7D84C0B6F631AC3E82A /* Pods_FYModuleB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2874964024584FBD008D97A4 /* FYModuleB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2874967024584FC0008D97A4 /* Build configuration list for PBXNativeTarget "FYModuleB" */;
+			buildPhases = (
+				AE3D53881888004264651D85 /* [CP] Check Pods Manifest.lock */,
+				2874963D24584FBD008D97A4 /* Sources */,
+				2874963E24584FBD008D97A4 /* Frameworks */,
+				2874963F24584FBD008D97A4 /* Resources */,
+				D9AA9FFF1F8C7C7EA3EA4C00 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYModuleB;
+			productName = FYModuleB;
+			productReference = 2874964124584FBD008D97A4 /* FYModuleB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2874965B24584FC0008D97A4 /* FYModuleBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2874967324584FC0008D97A4 /* Build configuration list for PBXNativeTarget "FYModuleBTests" */;
+			buildPhases = (
+				2874965824584FC0008D97A4 /* Sources */,
+				2874965924584FC0008D97A4 /* Frameworks */,
+				2874965A24584FC0008D97A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2874965E24584FC0008D97A4 /* PBXTargetDependency */,
+			);
+			name = FYModuleBTests;
+			productName = FYModuleBTests;
+			productReference = 2874965C24584FC0008D97A4 /* FYModuleBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2874966624584FC0008D97A4 /* FYModuleBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2874967624584FC0008D97A4 /* Build configuration list for PBXNativeTarget "FYModuleBUITests" */;
+			buildPhases = (
+				2874966324584FC0008D97A4 /* Sources */,
+				2874966424584FC0008D97A4 /* Frameworks */,
+				2874966524584FC0008D97A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2874966924584FC0008D97A4 /* PBXTargetDependency */,
+			);
+			name = FYModuleBUITests;
+			productName = FYModuleBUITests;
+			productReference = 2874966724584FC0008D97A4 /* FYModuleBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2874963924584FBD008D97A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = cfy;
+				TargetAttributes = {
+					2874964024584FBD008D97A4 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					2874965B24584FC0008D97A4 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 2874964024584FBD008D97A4;
+					};
+					2874966624584FC0008D97A4 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 2874964024584FBD008D97A4;
+					};
+				};
+			};
+			buildConfigurationList = 2874963C24584FBD008D97A4 /* Build configuration list for PBXProject "FYModuleB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2874963824584FBD008D97A4;
+			productRefGroup = 2874964224584FBD008D97A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2874964024584FBD008D97A4 /* FYModuleB */,
+				2874965B24584FC0008D97A4 /* FYModuleBTests */,
+				2874966624584FC0008D97A4 /* FYModuleBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2874963F24584FBD008D97A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2874965424584FBF008D97A4 /* LaunchScreen.storyboard in Resources */,
+				2874965124584FBF008D97A4 /* Assets.xcassets in Resources */,
+				2874964F24584FBD008D97A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2874965A24584FC0008D97A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2874966524584FC0008D97A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE3D53881888004264651D85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYModuleB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9AA9FFF1F8C7C7EA3EA4C00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYModuleB/Pods-FYModuleB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYModuleB/Pods-FYModuleB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FYModuleB/Pods-FYModuleB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2874963D24584FBD008D97A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2874964C24584FBD008D97A4 /* ViewController.m in Sources */,
+				2874964624584FBD008D97A4 /* AppDelegate.m in Sources */,
+				2874965724584FBF008D97A4 /* main.m in Sources */,
+				2874964924584FBD008D97A4 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2874965824584FC0008D97A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2874966124584FC0008D97A4 /* FYModuleBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2874966324584FC0008D97A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2874966C24584FC0008D97A4 /* FYModuleBUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2874965E24584FC0008D97A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2874964024584FBD008D97A4 /* FYModuleB */;
+			targetProxy = 2874965D24584FC0008D97A4 /* PBXContainerItemProxy */;
+		};
+		2874966924584FC0008D97A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2874964024584FBD008D97A4 /* FYModuleB */;
+			targetProxy = 2874966824584FC0008D97A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2874964D24584FBD008D97A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2874964E24584FBD008D97A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2874965224584FBF008D97A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2874965324584FBF008D97A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2874966E24584FC0008D97A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2874966F24584FC0008D97A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2874967124584FC0008D97A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7F2B5A5E3FB7900D180EEB /* Pods-FYModuleB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYModuleB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfy.FYModuleB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2874967224584FC0008D97A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894567EE6DF1E6834F523F62 /* Pods-FYModuleB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYModuleB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfy.FYModuleB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2874967424584FC0008D97A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYModuleBTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfy.FYModuleBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYModuleB.app/FYModuleB";
+			};
+			name = Debug;
+		};
+		2874967524584FC0008D97A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYModuleBTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfy.FYModuleBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYModuleB.app/FYModuleB";
+			};
+			name = Release;
+		};
+		2874967724584FC0008D97A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYModuleBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfy.FYModuleBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYModuleB;
+			};
+			name = Debug;
+		};
+		2874967824584FC0008D97A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYModuleBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfy.FYModuleBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYModuleB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2874963C24584FBD008D97A4 /* Build configuration list for PBXProject "FYModuleB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2874966E24584FC0008D97A4 /* Debug */,
+				2874966F24584FC0008D97A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2874967024584FC0008D97A4 /* Build configuration list for PBXNativeTarget "FYModuleB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2874967124584FC0008D97A4 /* Debug */,
+				2874967224584FC0008D97A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2874967324584FC0008D97A4 /* Build configuration list for PBXNativeTarget "FYModuleBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2874967424584FC0008D97A4 /* Debug */,
+				2874967524584FC0008D97A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2874967624584FC0008D97A4 /* Build configuration list for PBXNativeTarget "FYModuleBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2874967724584FC0008D97A4 /* Debug */,
+				2874967824584FC0008D97A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2874963924584FBD008D97A4 /* Project object */;
+}

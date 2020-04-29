@@ -1,0 +1,7 @@
+FYModuleB.xcodeproj/xcuserdata/
+FYModuleB.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+FYModuleB.xcodeproj/project.xcworkspace/xcuserdata/
